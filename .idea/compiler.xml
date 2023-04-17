@@ -14,7 +14,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="address-service" target="17" />
+      <module name="address-service" target="11" />
       <module name="course-service" target="17" />
       <module name="discovery-service" target="17" />
       <module name="employee-service" target="17" />
