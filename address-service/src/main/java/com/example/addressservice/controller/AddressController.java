@@ -87,6 +87,16 @@ public class AddressController {
 
     }
 
+    @GetMapping("/testing")
+    public ResponseEntity<String> testing(){
+        //return new ResponseEntity<>(employeeService.getAllEmployee(), HttpStatus.OK);
+
+        return ResponseEntity.status(HttpStatus.OK).body("testing push");
+
+    }
+
+
+
 
 
 
