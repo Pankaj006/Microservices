@@ -78,5 +78,13 @@ public class AddressController {
 
     }
 
+    @GetMapping("/getAddressdemo1")
+    public ResponseEntity<String> demo10(){
+        //return new ResponseEntity<>(employeeService.getAllEmployee(), HttpStatus.OK);
+
+        return ResponseEntity.status(HttpStatus.OK).body("ten push");
+
+    }
+
 
 }
