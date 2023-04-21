@@ -23,4 +23,12 @@ public class AddressController {
 
     }
 
+    @GetMapping("/getAddressdemo")
+    public ResponseEntity<String> demo(){
+        //return new ResponseEntity<>(employeeService.getAllEmployee(), HttpStatus.OK);
+
+        return ResponseEntity.status(HttpStatus.OK).body("something");
+
+    }
+
 }
