@@ -63,6 +63,12 @@ public class AddressController {
         return ResponseEntity.status(HttpStatus.OK).body("Fifth push");
 
     }
+    @GetMapping("/getAddressdemo1")
+    public ResponseEntity<String> demo5(){
+        //return new ResponseEntity<>(employeeService.getAllEmployee(), HttpStatus.OK);
 
+        return ResponseEntity.status(HttpStatus.OK).body("sixth push");
+
+    }
 
 }
