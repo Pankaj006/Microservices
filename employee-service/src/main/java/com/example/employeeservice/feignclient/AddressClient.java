@@ -14,5 +14,4 @@ public interface AddressClient {
     @GetMapping("/getAddress")
     ResponseEntity<AddressDto> getEmployeeByAddress();
 
-
 }
